@@ -26,7 +26,7 @@ This repository contains my personal portfolio, built with React.js and Bootstra
 To clone and run this application
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-username/your-portfolio-name.git
+$ git clone [https://github.com/butlerem/react-portfolio.git]
 
 # Go into the repository
 $ cd your-portfolio-name
