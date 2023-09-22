@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full-Stack Web Developer", "Server-Side Development", "Front-End & UI/UX Designer" ];
+  const toRotate = [ ", Full-Stack Web Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +55,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Emma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Web Developer", "Server-Side Development", "Front-End & UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Hello and welcome! My name is Emma, and I'm an aspiring web developer located in Ottawa. Having completed an intensive Web Development Bootcamp at the University of Toronto, I've cultivated a strong skill set that includes front-end and back-end technologies. I enjoy working with HTML, CSS, and JavaScript to build visually engaging user experiences. On the server-side, I use Node.js and Express to develop scalable applications. I'm adept in database management, proficient in SQL, and equally comfortable with NoSQL databases.</p>
+                <h1>{`Hi! I'm Emma`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ ", Full-Stack Web Developer"]'><span className="wrap">{text}</span></span></h1>
+                  <p> </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -66,7 +65,6 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
