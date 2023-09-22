@@ -4,6 +4,9 @@
 
 This repository contains my personal portfolio, built with React.js and Bootstrap. It showcases my skills in full-stack web development and some of the projects I've worked on.
 
+View the portfolio at:
+https://react-portfolio-butlerem-c2f0a91d95be.herokuapp.com/
+
 ![Screenshot from 2023-09-22 14-24-18](https://github.com/butlerem/react-portfolio/assets/130527417/c6567069-9f4d-4a03-aa45-d36a883e5104)
 
 
