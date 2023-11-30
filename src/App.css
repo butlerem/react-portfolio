@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #586571 !important;
+  background-color: #faf5f8 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -77,7 +77,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #AF8394;
+  background-color: #ad5584;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -85,6 +85,8 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
+  border: 1px solid #fff;
+  background: #94426c8d;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -105,14 +107,14 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.092);
+    background: #94426c84;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid #ffffff;
 }
 .social-icon a::before {
     content: "";
@@ -136,14 +138,14 @@ span.navbar-text {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .navbar-text button {
-  font-weight: 700;
+  font-weight: 900;
   color: #fff;
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
 	position: relative;
-	background-color: transparent;
+	background-color: #94426c60;
 	transition: 0.3s ease-in-out;
 }
 .navbar-text button span {
@@ -161,7 +163,7 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #3F495B;
+  color: #ffffff;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -228,8 +230,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #aeb0afaf -5.91%, #9098A0 111.58%);
-  border: 1px solid #A7A9AD;
+  background: #94426c59;
+  border: 1px solid #ffffff;
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -291,7 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #3A404E;
+  background: #94426c;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -302,7 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #AEB0AF;
+    color: #faf5f8;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -329,7 +331,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color:#3A404E;
+  background-color:#68334d;
 }
 .project h2 {
 	font-size: 45px;
@@ -337,7 +339,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #AEB0AF;
+  color: #f7ecf3;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -349,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: #c16e9e17;
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -374,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AEB0AF -5.91%, #54626D 111.58%);
+    background: linear-gradient(90.21deg, #e5bcd6 -5.91%, #d393ba 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -387,15 +389,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #d393ba;
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid #e5bcd6;
+  border-bottom: 1px solid #e5bcd6;
 }
 .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #e5bcd6;
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
@@ -406,8 +408,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AF8394 -5.91%, #AEB0AF 111.58%);
-  opacity: 0.85;
+  background: #7b395a;
+  opacity: 0.65;
   position: absolute;
   width: 100%;
   height: 0;
@@ -457,7 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #3A404E -5.91%, #586571 111.58%);
+  background:#e5bcd6;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -470,8 +472,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: #e5bcd6;
+  border: 1px solid #f0dae8;
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
@@ -483,7 +485,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
-  color: #121212;
+  color: #ffd3e8;
 }
 .contact form input::placeholder, .contact form textarea::placeholder {
   font-size: 16px;
@@ -491,12 +493,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
 }
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
-  color: #121212;
+  color: #68334d;
   opacity: 0.8;
 }
 .contact form button {
   font-weight: 700;
-  color: #000;
+  color: #68334d;
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
@@ -514,7 +516,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #68334d;
   width: 0;
   height: 100%;
   position: absolute;
@@ -529,7 +531,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 5 5 50px 5;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -568,14 +570,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx input {
   width: 100%;
-  color: #121212;
+  color: #ad5584;
   font-weight: 500;
   background: transparent;
   border: 0;
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AF8394 -5.91%, #615A56 111.58%);
+  background: linear-gradient(90.21deg, #AF8394 -5.91%, #808080 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -588,7 +590,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #586571;
+  color: #ffffff;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
