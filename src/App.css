@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #faf5f8 !important;
+  background-color: #ffe9ed !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -83,14 +83,16 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #fff !important;
+  font-weight: 900;
+  color: #fff;
   border: 1px solid #fff;
+  padding: 12px 25px;
+  font-size: 15px;
+  margin-left: 18px;
   background: #94426c8d;
   letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
   opacity: 0.75;
+
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -459,7 +461,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background:#e5bcd6;
+  background:#68334d;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -531,7 +533,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 5 5 50px 5;
+  padding: 25px 25px 50px 50px;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -593,4 +595,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #ffffff;
   letter-spacing: 0.5px;
   margin-top: 20px;
+  margin-left: 100px;
 }

@@ -1,19 +1,28 @@
-import { Col } from "react-bootstrap";
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
-export const ProjectCard = ({ title, description, imgUrl, url }) => {
+
+export const ProjectCard = ({ title, description, imgUrl, url, navIcon3 }) => {
   return (
-    <Col size={12} sm={6} md={4}>
-      <div className="proj-imgbx">
-        <img src={imgUrl} alt={title} />
-        <div className="proj-txtx">
+    <Row>
+      {/* Image Column */}
+      <Col md={6} sm={12}>
+        <img src={imgUrl} alt={title} style={{ width: '100%', height: 'auto' }} />
+      </Col>
+
+      {/* Description Column */}
+      <Col md={6} sm={12} style={{ textAlign: 'left' }}>
+        <div>
           <h4>
+            {title}{" "}
             <a href={url} target="_blank" rel="noopener noreferrer" className="project-link">
-              {title}
+              <img src={navIcon3} alt="GitHub" style={{ marginBottom: '5px' }} />
             </a>
           </h4>
-          <span>{description}</span>
+          <p>{description}</p>
         </div>
-      </div>
-    </Col>
-  )
-}
+      </Col>
+    </Row>
+  );
+};
